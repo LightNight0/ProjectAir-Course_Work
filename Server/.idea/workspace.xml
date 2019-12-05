@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ddce177a-c7b3-4a0b-8ec1-c3017d2de7d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client/ProjectAir_Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Baggage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Crew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Essence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/IRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/PersonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Runway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/TicketClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/essences/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/webConnection/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/MenuBarFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/SetScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/about.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/essences/PersonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/essences/maps/PersonDataMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/feature-trainer-version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/src/CodeAssistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae90f3a-3e5c-48f5-b2d5-2c111344afb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae90f3a-3e5c-48f5-b2d5-2c111344afb8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data base/ProjectAir_DBgenerator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Data base/ProjectAir_DBgenerator.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/dataBase/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/dataBase/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/dataBase/DataBaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/Luggage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/PassengerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/Strip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/AircraftMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/AircraftMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/CrewMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/CrewMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/FlightMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/FlightMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/LuggageMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerClassMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/RouteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/RouteMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/StripMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/UserMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/UserMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/ClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/ClientListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/server/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/ClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataBase/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBase/DBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/maps/CrewMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/CrewMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/maps/RouteMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/RouteMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/maps/RunwayMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/RunwayMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/maps/TicketClassMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/TicketClassMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/essences/maps/UserMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/UserMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ClientListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TppJNEdXwW94S0FH3KshiMTOmy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data base/mysql-connector-java-5.1.48.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Main" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Project_Air@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Project_Air@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1ea03089" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddce177a-c7b3-4a0b-8ec1-c3017d2de7d4" name="Default Changelist" comment="" />
+      <created>1574166818377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574166818377</updated>
+      <workItem from="1574166820067" duration="1512000" />
+      <workItem from="1574186528565" duration="957000" />
+      <workItem from="1574246845566" duration="3537000" />
+      <workItem from="1574250535908" duration="349000" />
+      <workItem from="1574278116749" duration="478000" />
+      <workItem from="1574713903524" duration="61000" />
+      <workItem from="1574716135961" duration="2612000" />
+      <workItem from="1574864800092" duration="1190000" />
+      <workItem from="1574866179609" duration="150000" />
+      <workItem from="1574866365732" duration="6586000" />
+      <workItem from="1574879231528" duration="1644000" />
+      <workItem from="1574928935993" duration="109000" />
+      <workItem from="1574934867589" duration="1766000" />
+      <workItem from="1574937434885" duration="741000" />
+      <workItem from="1574943521834" duration="1124000" />
+      <workItem from="1575115638876" duration="1203000" />
+      <workItem from="1575123543194" duration="444000" />
+      <workItem from="1575367906477" duration="5793000" />
+      <workItem from="1575375615243" duration="436000" />
+      <workItem from="1575376296955" duration="87000" />
+      <workItem from="1575376881854" duration="219000" />
+      <workItem from="1575378566284" duration="2015000" />
+      <workItem from="1575491518943" duration="1647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1575491897836">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state x="522" y="67" key="#com.intellij.ide.util.MemberChooser/69.0.1297.768@69.0.1297.768" timestamp="1575491897836" />
+    <state width="627" height="176" key="GridCell.Tab.0.bottom" timestamp="1575493272000">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state width="627" height="176" key="GridCell.Tab.0.bottom/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
+    <state width="627" height="176" key="GridCell.Tab.0.center" timestamp="1575493272000">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state width="627" height="176" key="GridCell.Tab.0.center/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
+    <state width="627" height="176" key="GridCell.Tab.0.left" timestamp="1575493272000">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state width="627" height="176" key="GridCell.Tab.0.left/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
+    <state width="627" height="176" key="GridCell.Tab.0.right" timestamp="1575493272000">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state width="627" height="176" key="GridCell.Tab.0.right/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
+    <state x="413" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1575376908069">
+      <screen x="69" y="0" width="1297" height="768" />
+    </state>
+    <state x="413" y="206" key="com.intellij.ide.util.TipDialog/69.0.1297.768@69.0.1297.768" timestamp="1575376908069" />
+  </component>
+</project>

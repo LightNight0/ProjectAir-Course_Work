@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.managerWindows.ManagerWindow">
+   <children>
+      <MenuBar maxHeight="30.0" minHeight="30.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#loginOut" text="Выход из аккаунта">
+                     <accelerator>
+                        <KeyCodeCombination alt="DOWN" code="Q" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+              <MenuItem mnemonicParsing="false" onAction="#closeProgramm" text="Выход из программы">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Окно">
+              <items>
+                  <MenuItem fx:id="routesWindowMenuItem" mnemonicParsing="false" onAction="#routesWindow" text="Окно маршрутов (вкл)">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="R" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                <MenuItem fx:id="fullscreenMenuItem" mnemonicParsing="false" onAction="#setFullScreen" text="Полноэкранный режим">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="F1" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#about" text="Информация об аэропорте">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="A" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane fx:id="mainBorderPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0" />
+      <TableView fx:id="table" maxHeight="918.0" maxWidth="1282.0" minHeight="20.0" prefHeight="264.0" prefWidth="1282.0" stylesheets="@tableWindows/Tablo.css" visible="false" />
+   </children>
+</VBox>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.managerWindows.tableWindows.Chart">
+   <children>
+      <PieChart fx:id="pie" layoutX="-1.0" prefHeight="360.0" prefWidth="540.0" title="График загруженности дней" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.EnterWindow">
+   <top>
+      <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="300.0" minHeight="50.0" minWidth="300.0" prefHeight="56.0" prefWidth="134.0" style="-fx-font-size: 24;" text="Вход в систему" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="30.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label maxHeight="20.0" maxWidth="300.0" minHeight="20.0" minWidth="300.0" text="Логин">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Calibri Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="loginField" maxHeight="40.0" maxWidth="300.0" minHeight="40.0" minWidth="300.0">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Calibri Italic" size="24.0" />
+               </font>
+            </TextField>
+            <Label maxHeight="20.0" maxWidth="300.0" minHeight="20.0" minWidth="300.0" text="Пароль">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Calibri Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" maxHeight="40.0" maxWidth="300.0" minHeight="40.0" minWidth="300.0">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </PasswordField>
+            <Label fx:id="errorLabel" style="-fx-text-fill: red;" text="Неверный логин или пароль!" textFill="RED" visible="false">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button maxHeight="80.0" maxWidth="140.0" minHeight="50.0" minWidth="140.0" mnemonicParsing="false" onAction="#Enter" text="Вход">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

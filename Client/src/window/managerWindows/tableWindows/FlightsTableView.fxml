@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="vBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.managerWindows.tableWindows.FlightsTableView">
+   <children>
+      <TableView fx:id="flightTableView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0" />
+      <HBox fx:id="hBox" prefHeight="0.0" prefWidth="600.0">
+         <children>
+            <Button maxHeight="60.0" maxWidth="198.0" minHeight="60.0" minWidth="140.0" mnemonicParsing="false" onAction="#edit" prefHeight="60.0" prefWidth="198.0" text="Редактировать">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button maxHeight="60.0" maxWidth="140.0" minHeight="60.0" minWidth="140.0" mnemonicParsing="false" onAction="#delete" text="Удалить">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button fx:id="button" mnemonicParsing="false" onAction="#todayFlights" prefHeight="60.0" prefWidth="270.0" text="Показать на сегодня">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#infoTablo" prefHeight="60.0" prefWidth="291.0" text="Информационное табло">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button minWidth="60.0" mnemonicParsing="false" onAction="#updateTablo" prefHeight="60.0" prefWidth="138.0" text="Обновить">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#viewChart" prefHeight="60.0" prefWidth="249.0" text="Загруженность дней">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="400.0" maxWidth="1.7976931348623157E308" prefHeight="300.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.managerWindows.tableWindows.RoutesTableView">
+   <bottom>
+      <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button maxHeight="60.0" maxWidth="198.0" minHeight="60.0" minWidth="140.0" mnemonicParsing="false" onAction="#edit" prefHeight="60.0" prefWidth="198.0" text="Редактировать">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button maxHeight="60.0" maxWidth="140.0" minHeight="60.0" minWidth="140.0" mnemonicParsing="false" onAction="#delete" text="Удалить">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <TableView fx:id="routesTableView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="window.adminWindow.AdminWindow">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#loginOut" text="Выход из аккаунта">
+                     <accelerator>
+                        <KeyCodeCombination alt="DOWN" code="Q" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#closeProgramm" text="Выход">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Окно">
+              <items>
+                <MenuItem fx:id="fullScreenMenuItem" mnemonicParsing="false" onAction="#fullscreen" text="Полноэкранный режим">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="F1" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#about" text="О программе">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="A" control="UP" meta="ANY" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane fx:id="borderPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1080.0" prefWidth="1920.0">
+         <center>
+            <TableView fx:id="userTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <VBox fx:id="vBox" alignment="CENTER" prefHeight="350.0" prefWidth="350.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="200.0" text="ФИО">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf1" maxWidth="200.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label prefWidth="200.0" text="Роль">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choiceBox" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ChoiceBox>
+                  <Label prefWidth="200.0" text="Логин">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf2" maxWidth="200.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label prefWidth="200.0" text="Пароль">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf3" maxWidth="200.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Button fx:id="button" mnemonicParsing="false" onAction="#registrate" prefHeight="65.0" prefWidth="247.0" text="Зарегистрировать">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#edit" prefHeight="47.0" prefWidth="246.0" text="Редактировать">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#delete" prefHeight="43.0" prefWidth="246.0" text="Удалить">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </right>
+      </BorderPane>
+   </children>
+</VBox>
