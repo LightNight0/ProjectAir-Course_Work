@@ -4,6 +4,9 @@ import essences.User;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import java.io.FileWriter;
+import java.io.Writer;
+
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
@@ -36,6 +39,9 @@ public class AdminWindow {
     private Button button;
 
     @FXML
+    private Button saveFile;
+
+    @FXML
     private ChoiceBox<String> choiceBox;
 
     @FXML
@@ -49,7 +55,6 @@ public class AdminWindow {
     private static TableColumn password;
 
     public AdminWindow() {
-
     }
 
     public ObservableList<User> getUsers() throws Exception {
@@ -75,14 +80,11 @@ public class AdminWindow {
 
     @FXML
     public void initialize() {
-
-        //vBox.setVisible(false);
-
         roles = FXCollections.observableArrayList();
-        roles.addAll("manager", "admin");
+        roles.addAll("manager", "admin", "blocked");
         choiceBox.setItems(roles);
 
-        name = new TableColumn("ФИО");
+        name = new TableColumn("Имя");
         role = new TableColumn("Должность");
         login = new TableColumn("Логин");
         password = new TableColumn("Пароль");
@@ -171,8 +173,6 @@ public class AdminWindow {
 
     @FXML
     public void back() {
-        //borderPane.getBottom().setVisible(true);
-        //vBox.setVisible(false);
         clearFields();
     }
 
@@ -201,8 +201,13 @@ public class AdminWindow {
     }
 
     @FXML
-    public void change(){
+    public void changeLanguage(){
+        menuBarFunctions.changeLanguage();
+    }
 
+    @FXML
+    public void changeTheme(){
+        menuBarFunctions.changeTheme();
     }
 
     @FXML
@@ -224,6 +229,23 @@ public class AdminWindow {
         }
         userTableView.setItems(list);
         userTableView.refresh();
+    }
+
+    @FXML
+    private void saveInFile(){
+        try{
+            FileWriter writer = new FileWriter("blockedAccounts.txt");
+            for (User u : list){
+                if(u.getRole().equals("blocked")){
+                    writer.write(u.getName() + " " + u.getLogin() + " " + u.getPassword());
+                    writer.flush();
+                }
+            }
+            writer.close();
+            new Message("Ok!", Alert.AlertType.INFORMATION).show();
+        }catch (Exception ex){
+            new Message("Ошибка при записи в файл!", Alert.AlertType.ERROR).show();
+        }
     }
 
     @FXML

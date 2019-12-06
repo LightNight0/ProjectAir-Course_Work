@@ -33,6 +33,16 @@ public class MenuBarFunctions {
         }
     }
 
+    public void changeLanguage(){
+        localization.LangController.changeLocale();
+        loginOut();
+    }
+
+    public void changeTheme(){
+        localization.ThemeController.changeTheme();
+        loginOut();
+    }
+
     public void closeProgramm(){
         Connector.getInstance().disconnect();
         System.exit(0);

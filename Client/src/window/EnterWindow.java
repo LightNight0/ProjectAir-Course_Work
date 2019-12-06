@@ -19,6 +19,8 @@ public class EnterWindow {
     private PasswordField passwordField;
     @FXML
     private Label errorLabel;
+    @FXML
+    private Label errorLabelBlocked;
 
 
     @FXML
@@ -45,6 +47,7 @@ public class EnterWindow {
             loginField.setText("");
             passwordField.setText("");
             errorLabel.setVisible(false);
+            errorLabelBlocked.setVisible(false);
             user = (User) o;
                 switch (user.getRole()) {
                     case "manager":
@@ -52,6 +55,9 @@ public class EnterWindow {
                         break;
                     case "admin":
                         new SetScene().setScene("adminWindow/AdminWindow.fxml");
+                        break;
+                    case "blocked":
+                        errorLabelBlocked.setVisible(true);
                         break;
                     default :
                         errorLabel.setVisible(true);

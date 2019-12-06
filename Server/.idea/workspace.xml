@@ -2,73 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddce177a-c7b3-4a0b-8ec1-c3017d2de7d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Client/ProjectAir_Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Baggage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Crew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Essence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/IRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/PersonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/Runway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/TicketClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/essences/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/webConnection/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/MenuBarFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/SetScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/about.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/essences/PersonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/essences/maps/PersonDataMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/feature-trainer-version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/src/CodeAssistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LearnProject/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae90f3a-3e5c-48f5-b2d5-2c111344afb8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae90f3a-3e5c-48f5-b2d5-2c111344afb8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Themes/DarkTheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Themes/LightTheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/bundle_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/bundle_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/localization/LangController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/localization/ThemeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/EnterWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/EnterWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/EnterWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/EnterWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/MenuBarFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/MenuBarFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/SetScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/SetScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/adminWindow/AdminWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/adminWindow/AdminWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/adminWindow/AdminWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/adminWindow/AdminWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/ManagerWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/tableWindows/Tablo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/ProjectAir_Client/window/managerWindows/tableWindows/Tablo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/EnterWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/EnterWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/EnterWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/MenuBarFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/MenuBarFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/SetScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/SetScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/adminWindow/AdminWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/window/managerWindows/tableWindows/Tablo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/window/managerWindows/tableWindows/Tablo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data base/ProjectAir_DBgenerator.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Data base/ProjectAir_DBgenerator.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/dataBase/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/dataBase/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/dataBase/DataBaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/Luggage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/PassengerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/Strip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/AircraftMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/AircraftMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/CrewMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/CrewMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/FlightMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/FlightMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/LuggageMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerClassMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/PassengerMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/RouteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/RouteMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/StripMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/essences/maps/UserMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/essences/maps/UserMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/server/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/server/ClientListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/ClientListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/server/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/server/ClientManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBase/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBase/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/maps/CrewMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/CrewMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/maps/RouteMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/RouteMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/maps/RunwayMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/RunwayMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/maps/TicketClassMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/TicketClassMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/essences/maps/UserMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/essences/maps/UserMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ClientListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data base/ProjectAir_DBDiagram.dbd" beforeDir="false" afterPath="$PROJECT_DIR$/Data base/ProjectAir_DBDiagram.dbd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +50,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Project_Air@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Project_Air@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Project_Air@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project_air: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -143,17 +123,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:Project_Air@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:Project_Air@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1ea03089" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -193,6 +163,8 @@
       <workItem from="1575376881854" duration="219000" />
       <workItem from="1575378566284" duration="2015000" />
       <workItem from="1575491518943" duration="1647000" />
+      <workItem from="1575614527549" duration="4218000" />
+      <workItem from="1575635024644" duration="1903000" />
     </task>
     <servers />
   </component>
@@ -217,25 +189,25 @@
       <screen x="69" y="0" width="1297" height="768" />
     </state>
     <state x="522" y="67" key="#com.intellij.ide.util.MemberChooser/69.0.1297.768@69.0.1297.768" timestamp="1575491897836" />
-    <state width="627" height="176" key="GridCell.Tab.0.bottom" timestamp="1575493272000">
+    <state width="627" height="176" key="GridCell.Tab.0.bottom" timestamp="1575641471456">
       <screen x="69" y="0" width="1297" height="768" />
     </state>
-    <state width="627" height="176" key="GridCell.Tab.0.bottom/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
-    <state width="627" height="176" key="GridCell.Tab.0.center" timestamp="1575493272000">
+    <state width="627" height="176" key="GridCell.Tab.0.bottom/69.0.1297.768@69.0.1297.768" timestamp="1575641471456" />
+    <state width="627" height="176" key="GridCell.Tab.0.center" timestamp="1575641471456">
       <screen x="69" y="0" width="1297" height="768" />
     </state>
-    <state width="627" height="176" key="GridCell.Tab.0.center/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
-    <state width="627" height="176" key="GridCell.Tab.0.left" timestamp="1575493272000">
+    <state width="627" height="176" key="GridCell.Tab.0.center/69.0.1297.768@69.0.1297.768" timestamp="1575641471456" />
+    <state width="627" height="176" key="GridCell.Tab.0.left" timestamp="1575641471456">
       <screen x="69" y="0" width="1297" height="768" />
     </state>
-    <state width="627" height="176" key="GridCell.Tab.0.left/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
-    <state width="627" height="176" key="GridCell.Tab.0.right" timestamp="1575493272000">
+    <state width="627" height="176" key="GridCell.Tab.0.left/69.0.1297.768@69.0.1297.768" timestamp="1575641471456" />
+    <state width="627" height="176" key="GridCell.Tab.0.right" timestamp="1575641471456">
       <screen x="69" y="0" width="1297" height="768" />
     </state>
-    <state width="627" height="176" key="GridCell.Tab.0.right/69.0.1297.768@69.0.1297.768" timestamp="1575493272000" />
-    <state x="413" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1575376908069">
+    <state width="627" height="176" key="GridCell.Tab.0.right/69.0.1297.768@69.0.1297.768" timestamp="1575641471456" />
+    <state x="413" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1575635029112">
       <screen x="69" y="0" width="1297" height="768" />
     </state>
-    <state x="413" y="206" key="com.intellij.ide.util.TipDialog/69.0.1297.768@69.0.1297.768" timestamp="1575376908069" />
+    <state x="413" y="206" key="com.intellij.ide.util.TipDialog/69.0.1297.768@69.0.1297.768" timestamp="1575635029112" />
   </component>
 </project>

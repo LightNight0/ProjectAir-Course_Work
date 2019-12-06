@@ -2,8 +2,9 @@ package window;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-
+import localization.*;
 import java.io.IOException;
+import java.util.ResourceBundle;
 
 public class SetScene {
     private Scene scene;
@@ -18,8 +19,9 @@ public class SetScene {
                 width=Main.WIDTH;
                 hight=Main.HEIGHT;
             }
-            scene = new Scene(FXMLLoader.load(getClass().getResource(fxml)),width,hight);
-            //scene.getStylesheets().add("test.css");
+            ResourceBundle resources = ResourceBundle.getBundle("bundle", LangController.getLocale());
+            scene = new Scene(FXMLLoader.load(getClass().getResource(fxml), resources),width,hight);
+            scene.getStylesheets().add(ThemeController.getTheme());
         } catch (IOException e) {
             e.printStackTrace();
         }
